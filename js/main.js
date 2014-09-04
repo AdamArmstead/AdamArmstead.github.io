@@ -4,7 +4,8 @@ $(document).ready(function(){
 	
 	// initialise  slideshow
 	 $('.flexslider').flexslider({
-        animation: "slide",
+        slideshow: false,
+		animation: "slide",
         start: function(slider){
           $('body').removeClass('loading');
         }
