@@ -15,19 +15,20 @@ BASE (MOBILE) SIZE
 
 /* typography */
 body{
-	background:#fff;
+	background-color:#fff;
 	color:#666;
-	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
+	font-family: 'Raleway', sans-serif;
+	font-weight:300;
 	font-size:1em;
 	line-height:1.4em; 
 	font-weight:normal;
 }
 h1, h2, h3, h4, h5, h6{
-	font-weight:400;
-	font-family:'Oswald', Arial, Helvetica, sans-serif; 
+	font-weight:800;
 	line-height:1.5em;
 	margin:.45em 0;
 	padding:0;
+	text-align:center;
 } 
 
 /* links */
@@ -48,14 +49,40 @@ a:hover{ text-decoration:none;}
 	margin: 0 auto;
 }
 header{ 
+	background-image: url('../images/hero.jpg');
+	height: 10%;
 	padding:15px 0;
+}
+.intro {
+	color: #fff;
+	text-align: center;
+	padding: 15% 5%;
+	}
+.intro h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.25em;
+	font-weight: 200;
+	}	
+.intro h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.75em;
+	font-weight: 800;
+	}
+.odd {
+	background:#fff;
+	padding:20px 0;
+}
+.even {
+	background:#4657A5;
+	color: #fff;
+	padding:20px 0;
 }
 #banner{ 
 	text-align:center;
 }	
 #hero,
 #page-header{
-	background:#f3f3f3;
+
 	border-top:1px solid #e2e2e2;
 	border-bottom:1px solid #e2e2e2;
 	padding:20px 0;
@@ -164,7 +191,7 @@ img{ max-width:100%; height:auto;}
 .grid_10,
 .grid_11,
 .grid_12 {
-	margin-bottom:40px;
+	margin:20px 0;
 	/*positioning and padding*/
 	position: relative;
     min-height: 1px;
@@ -187,17 +214,20 @@ footer ul{
 
 /*Some more colored elements*/
 a.buttonlink{ 
-	background:#5ec79e; 
-	border-radius:7px; 
+	background:#122A93;
+	border:1px solid #122A93;
+	border-radius:4px; 
 	color:#fff;
 	display:block;
-	float:left; 
-	margin:10px 15px 10px 0; 
+	width: 60%;
+	margin:10px 20% 10px 20%; 
 	padding:10px;
+	text-align: center;
 	text-decoration:none;
 }
 a.buttonlink:hover{
-	background:#887dc2;
+	background:#fff;
+	color:#122A93; 
 }
 .greenelement{
 	background:#5ec79e;
