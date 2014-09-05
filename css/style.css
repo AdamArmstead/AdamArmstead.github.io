@@ -59,20 +59,41 @@ header{
 	padding: 15% 5%;
 	}
 .intro h1 {
-	font-family: 'Raleway', sans-serif;
 	font-size: 2.25em;
 	font-weight: 200;
 	}	
 .intro h2 {
-	font-family: 'Raleway', sans-serif;
 	font-size: 1.75em;
 	font-weight: 800;
 	}
-.odd {
+.about {
+	background:#fff;
+	padding:40px 0;
+}
+.about h3 {
+	font-size: 1.75em;
+	font-weight: 300;
+	}
+.icon {
+	background:#EF2762;
+	width:150px;
+	height:150px;
+	display:block;
+	border-radius: 100px;
+	text-align:center;
+	margin: 20px auto;
+	}
+.icon i{
+	font-size: 4em;
+	color: #fff;
+ 	height: 150px;
+  	line-height: 150px;
+	}
+.even {
 	background:#fff;
 	padding:20px 0;
 }
-.even {
+.odd {
 	background:#4657A5;
 	color: #fff;
 	padding:20px 0;
@@ -214,8 +235,8 @@ footer ul{
 
 /*Some more colored elements*/
 a.buttonlink{ 
-	background:#F06B45;
-	border:1px solid #F06B45;
+	background:#EF2762;
+	border:1px solid #EF2762;
 	border-radius:4px; 
 	color:#fff;
 	display:block;
@@ -227,7 +248,7 @@ a.buttonlink{
 }
 a.buttonlink:hover{
 	background:#fff;
-	color:#F06B45; 
+	color:#EF2762; 
 }
 .greenelement{
 	background:#5ec79e;
