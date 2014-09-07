@@ -32,11 +32,9 @@ h1, h2, h3, h4, h5, h6{
 } 
 
 /* links */
-a,
-a:visited,
-a:active,
-a:hover{color:#0099ff;}
-a:hover{ text-decoration:none;}
+
+a{ color:#fff;}
+a,a:visited,a:active,a:hover{ text-decoration:none;}
 
 
 /* Box sizing. Awesome thing. Read about it here: http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
@@ -48,9 +46,12 @@ a:hover{ text-decoration:none;}
 	width: 92%; 
 	margin: 0 auto;
 }
+#logo {
+	margin-bottom: 10px;
+	font-weight: 300;
+}
 header{ 
 	background-image: url('../images/hero.jpg');
-	height: 10%;
 	padding:15px 0;
 }
 .intro {
@@ -58,13 +59,18 @@ header{
 	text-align: center;
 	padding: 15% 5%;
 	}
-.intro h1 {
+.intro h1, .intro_internal h1 {
 	font-size: 2.25em;
 	font-weight: 200;
 	}	
 .intro h2 {
 	font-size: 1.75em;
 	font-weight: 800;
+	}
+	.intro_internal {
+	color: #fff;
+	text-align: center;
+	padding: 5% 5%;
 	}
 .about {
 	background:#fff;
@@ -98,6 +104,38 @@ header{
 	color: #fff;
 	padding:20px 0;
 }
+.testimonial {
+	background:#ebeef2;
+	padding: 20px 0;
+}
+.testimonial h2 {
+	text-align:center;
+	font-size:1.5em;
+	font-weight:300;
+	padding-left:60px;
+	padding-right:60px;
+	margin: 10px 0 0 0;
+}
+.testimonial h3 {
+	text-align:center;
+	font-size:.85em;
+	font-weight:800;
+	color: #999;
+	padding-left:60px;
+	padding-right:60px;
+	margin-top: 0;
+	margin-bottom:20px;
+}
+.testimonial p {
+	padding-left:60px;
+	padding-right:60px;
+}
+.portrait {
+	width:150px;
+	height:150px;
+	border-radius: 100px;
+	margin: 20px auto 0 auto;
+	}
 #banner{ 
 	text-align:center;
 }	
@@ -222,21 +260,46 @@ img{ max-width:100%; height:auto;}
 
 /*FOOTER*/
 footer{  
-	background:#333;
-	color:#ccc;
-	font-size:80%;
-	padding:20px 0;
+	background-color:#122A93;
+    text-align:center;
+    padding: 40px;
+    width:100%;
+    color:#ffffff;
+    font-size:2.25em;
+    font-family:'fontello';
 }
+footer a {
+	color: #fff;
+}
+footer a.mailicon, a.linkedinicon, a.twittericon, a.facebookicon {
+padding:0 15px;
+}
+footer a.mailicon:hover {
+	color: #EF2762;
+}
+footer a.linkedinicon:hover {
+    color: #007bb6;
+}
+footer a.twittericon:hover {
+    color: #00aced;
+}
+footer a.facebookicon:hover {
+    color: #3b5998;
+}
+    
+
+
+
 footer ul{
 	margin:0 0 0 8%;
 	padding:0;
 }
 
 
+
 /*Some more colored elements*/
 a.buttonlink{ 
-	background:#c3a758;
-	border:1px solid #c3a758;
+	background:#b79842;
 	border-radius:4px; 
 	color:#fff;
 	display:block;
@@ -247,8 +310,7 @@ a.buttonlink{
 	text-decoration:none;
 }
 a.buttonlink:hover{
-	background:#fff;
-	color:#c3a758; 
+	background:#856f30;
 }
 
 
