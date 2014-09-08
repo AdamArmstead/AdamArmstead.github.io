@@ -51,7 +51,7 @@ a,a:visited,a:active,a:hover{ text-decoration:none;}
 	font-weight: 300;
 }
 header{ 
-	background-image: url('../images/hero.jpg');
+	background-image: url('../images/hero2.jpg');
 	padding:15px 0;
 }
 .intro {
@@ -255,22 +255,9 @@ footer{
 footer a.mailicon, a.linkedinicon, a.twittericon, a.facebookicon {
 padding:10px;
 }
-footer a.mailicon:hover {
-	color: #EF2762;
+footer a.mailicon:hover, a.linkedinicon:hover, a.twittericon:hover, a.facebookicon:hover {
+	color: #4E63AB;
 }
-footer a.linkedinicon:hover {
-    color: #007bb6;
-}
-footer a.twittericon:hover {
-    color: #00aced;
-}
-footer a.facebookicon:hover {
-    color: #3b5998;
-}
-    
-
-
-
 footer ul{
 	margin:0 0 0 8%;
 	padding:0;
