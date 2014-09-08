@@ -81,7 +81,7 @@ header{
 	font-weight: 300;
 	}
 .icon {
-	background:#4E63AB;
+	background:#AB8E3D;
 	width:150px;
 	height:150px;
 	display:block;
@@ -95,14 +95,23 @@ header{
  	height: 150px;
   	line-height: 150px;
 	}
-.even {
+.whitebg {
 	background:#fff;
 	padding:20px 0;
 }
-.odd {
+.bluebg {
 	background:#8aa2f8;
 	color: #fff;
 	padding:20px 0;
+}
+.whitebg img, .bluebg img {
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+}
+.whitebg a, .bluebg a {
+	color: #122A93;
+	font-weight: 800;
 }
 .testimonial {
 	background:#ebeef2;
@@ -299,7 +308,7 @@ footer ul{
 
 /*Some more colored elements*/
 a.buttonlink{ 
-	background:#b79842;
+	background:#4E63AB;
 	border-radius:4px; 
 	color:#fff;
 	display:block;
@@ -307,10 +316,11 @@ a.buttonlink{
 	margin:10px 20% 10px 20%; 
 	padding:10px;
 	text-align: center;
+	font-weight: 300;
 	text-decoration:none;
 }
 a.buttonlink:hover{
-	background:#856f30;
+	background:#334171;
 }
 
 
