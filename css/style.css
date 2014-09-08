@@ -110,35 +110,10 @@ header{
 	margin-right: auto;
 }
 .whitebg a, .bluebg a {
-	color: #122A93;
+	color:#122A93;
 	font-weight: 800;
 }
-.testimonial {
-	background:#ebeef2;
-	padding: 20px 0;
-}
-.testimonial h2 {
-	text-align:center;
-	font-size:1.5em;
-	font-weight:300;
-	padding-left:60px;
-	padding-right:60px;
-	margin: 10px 0 0 0;
-}
-.testimonial h3 {
-	text-align:center;
-	font-size:.85em;
-	font-weight:800;
-	color: #999;
-	padding-left:60px;
-	padding-right:60px;
-	margin-top: 0;
-	margin-bottom:20px;
-}
-.testimonial p {
-	padding-left:60px;
-	padding-right:60px;
-}
+
 .portrait {
 	width:150px;
 	height:150px;
@@ -271,17 +246,14 @@ img{ max-width:100%; height:auto;}
 footer{  
 	background-color:#122A93;
     text-align:center;
-    padding: 40px;
+    padding: 20px 10px;
     width:100%;
     color:#ffffff;
-    font-size:2.25em;
+    font-size:1.75em;
     font-family:'fontello';
 }
-footer a {
-	color: #fff;
-}
 footer a.mailicon, a.linkedinicon, a.twittericon, a.facebookicon {
-padding:0 15px;
+padding:10px;
 }
 footer a.mailicon:hover {
 	color: #EF2762;
@@ -308,7 +280,7 @@ footer ul{
 
 /*Some more colored elements*/
 a.buttonlink{ 
-	background:#4E63AB;
+	background:#334171;
 	border-radius:4px; 
 	color:#fff;
 	display:block;
@@ -320,7 +292,7 @@ a.buttonlink{
 	text-decoration:none;
 }
 a.buttonlink:hover{
-	background:#334171;
+	background:#4E63AB;
 }
 
 
@@ -363,6 +335,9 @@ This is for mobile devices with a bit larger screens.
 	margin-top:10px; /*this depends on the height of the logo*/
 	float:right;
 }
+.testimonial{
+	display:none;
+}
 
 } 
 
@@ -398,14 +373,47 @@ header{
 	float:none;
 	width:100%;
 }
-
+.testimonial {
+	display:block;
+	background:#ebeef2;
+	padding: 20px 0;
+}
+.testimonial h2 {
+	text-align:center;
+	font-size:1.5em;
+	font-weight:300;
+	padding-left:60px;
+	padding-right:60px;
+	margin: 10px 0 0 0;
+}
+.testimonial h3 {
+	text-align:center;
+	font-size:.85em;
+	font-weight:800;
+	color: #999;
+	padding-left:60px;
+	padding-right:60px;
+	margin-top: 0;
+	margin-bottom:20px;
+}
+.testimonial p {
+	padding-left:60px;
+	padding-right:60px;
+}
 .flexslider{
 	display:block;
 /*demo 1 slider theme*/	
 margin: 0; 
 }
 .flex-control-nav {bottom: 5px;}
-
+footer{  
+    padding: 40px;
+    width:100%;
+    font-size:2.25em;
+}
+footer a.mailicon, a.linkedinicon, a.twittericon, a.facebookicon {
+padding:0 15px;
+}
 
 aside { 
 	float:right;
