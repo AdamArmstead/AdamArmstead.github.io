@@ -400,6 +400,16 @@ header{
 	padding-left:60px;
 	padding-right:60px;
 }
+.testimonial a.link {
+	display: block;
+	text-align:center;
+	color:#007bb6;
+	font-size: 1.25em;
+	font-weight:300;
+	padding-left:60px;
+	padding-right:60px;
+	margin: 10px auto 0 auto;
+	}
 .flexslider{
 	display:block;
 /*demo 1 slider theme*/	
