@@ -253,7 +253,8 @@ footer{
     font-family:'fontello';
 }
 footer a.mailicon, a.linkedinicon, a.twittericon, a.facebookicon {
-padding:10px;
+	padding:10px;
+	color:#fff;
 }
 footer a.mailicon:hover, a.linkedinicon:hover, a.twittericon:hover, a.facebookicon:hover {
 	color: #4E63AB;
