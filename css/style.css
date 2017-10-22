@@ -18,7 +18,7 @@ body{
 	background-color:#fff;
 	color:#666;
 	font-family: 'Raleway', sans-serif;
-	font-weight:300;
+	font-weight:200;
 	font-size:1.2em;
 	line-height:1.7em; 
 	font-weight:normal;
@@ -48,7 +48,7 @@ a,a:visited,a:active,a:hover{ text-decoration:none;}
 }
 #logo {
 	margin-bottom: 10px;
-	font-weight: 300;
+	font-weight: 200;
 }
 header{ 
 	background-image: url('../images/hero2.jpg');
@@ -77,8 +77,8 @@ header{
 	padding:40px 0;
 }
 .about h3 {
-	font-size: 1.75em;
-	font-weight: 300;
+	font-size: 1.5em;
+	font-weight: 200;
 	}
 .icon {
 	background:#AB8E3D;
@@ -276,7 +276,7 @@ a.buttonlink{
 	margin:10px 20% 10px 20%; 
 	padding:10px;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 200;
 	text-decoration:none;
 }
 a.buttonlink:hover{
@@ -369,7 +369,7 @@ header{
 .testimonial h2 {
 	text-align:center;
 	font-size:1.5em;
-	font-weight:300;
+	font-weight:200;
 	padding-left:60px;
 	padding-right:60px;
 	margin: 10px 0 0 0;
@@ -393,7 +393,7 @@ header{
 	text-align:center;
 	color:#007bb6;
 	font-size: 1.25em;
-	font-weight:300;
+	font-weight:200;
 	padding-left:60px;
 	padding-right:60px;
 	margin: 10px auto 0 auto;
